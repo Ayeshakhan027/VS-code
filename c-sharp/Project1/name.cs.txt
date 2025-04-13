@@ -1,0 +1,22 @@
+using system;
+namespace name
+{
+  class ABC{
+  static void main(string[] args)
+ {
+
+    //variable declaration
+
+          String name;
+
+    //variable initilization
+
+          name="Ayesha Khan";
+
+    //variable declaration and initilization
+
+          String name= "Ayesha Khan";
+Console.WriteLine(+name);
+     }
+          }
+}
