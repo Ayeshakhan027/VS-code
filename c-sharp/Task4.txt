@@ -1,0 +1,33 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Max and Min value of int
+
+        Console.WriteLine("int Max: " + int.MaxValue);    
+        Console.WriteLine("int Min: " + int.MinValue);    
+
+
+        // Max and Min value of long
+
+        Console.WriteLine("long Max: " + long.MaxValue);  
+        Console.WriteLine("long Min: " + long.MinValue);  
+
+
+        // Max and Min value of double
+
+        Console.WriteLine("double Max: " + double.MaxValue);  
+        Console.WriteLine("double Min: " + double.MinValue);  
+
+
+        // Max and Min length of string
+
+        string emptyString = ""; 
+        string maxString = new string('a', int.MaxValue); 
+
+        Console.WriteLine("string Min Length: " + emptyString.Length);  // 0
+        Console.WriteLine("string Max Length: ~2 billion (int.MaxValue)");  
+    }
+}
